@@ -13,7 +13,7 @@ func main() {
 	}()
 
 	for i := 0; i < 2; i++ {
-		//让出时间片，先让其他的执行
+		//让出时间片，先让其他的执行   注释看差异
 		runtime.Gosched()
 		fmt.Println("hello")
 	}

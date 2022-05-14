@@ -27,7 +27,7 @@ func main() {
 	fmt.Println("hello")
 
 	ch1 := make(chan int, 2) //为0会阻塞
-	// 双休能隐式转换为单向
+	// 双向能隐式转换为单向
 	var send chan<- int = ch1 //单向 只写
 	var recv <-chan int = ch1 //单向 只读
 

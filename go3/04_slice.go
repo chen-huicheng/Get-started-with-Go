@@ -68,6 +68,7 @@ func main() {
 
 	// append
 	aa := make([]int, 0, 0)
+	// aa := []int{}
 	oldCap := cap(aa)
 	for i := 0; i < 15; i++ {
 		aa = append(aa, i)

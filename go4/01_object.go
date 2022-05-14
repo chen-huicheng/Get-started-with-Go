@@ -33,7 +33,7 @@ func test1() {
 
 	s2 := Student{Person{"chen", 'm', 23}, 2, "sy"}
 	fmt.Printf("%+v", s2) // +v显示详细信息
-
+	fmt.Println()
 	// {{chen 109 23} 1 sy}
 	// {Person:{name:chen sex:109 age:23} id:2 addr:sy}
 

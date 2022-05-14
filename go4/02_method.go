@@ -65,6 +65,6 @@ func main() {
 	pfunc()               //然后调用
 
 	//方法表达式
-	f := (*Person).PrintInfo
+	f := (*Person).PrintInfo //
 	f(&p2)
 }

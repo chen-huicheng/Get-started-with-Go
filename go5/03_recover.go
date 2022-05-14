@@ -4,7 +4,7 @@ import "fmt"
 
 func test1(x int) {
 
-	defer func() {
+	defer func() {  //正常执行问执行
 		//recover() //当发生 panic 错误时 恢复错误
 		if err := recover(); err != nil {
 			fmt.Println(err)
